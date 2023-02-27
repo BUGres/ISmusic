@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">ISmusic</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/Pictures/inc.png</normaloff>:/Pictures/inc.png</iconset>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/background.png</pixmap>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>10</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minButton">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>10</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menuButton0">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>52</y>
+     <width>150</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;？？？&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="menuName0">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>52</y>
+     <width>150</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#4d4d4d;&quot;&gt;首页&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menuButton1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>52</y>
+     <width>150</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;？？？&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="menuName1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>52</y>
+     <width>150</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#4d4d4d;&quot;&gt;曲包&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="menuUnderline">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>150</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/numuChoose.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="menuUnderlineBG">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>101</y>
+     <width>800</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/menuChooseBG.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menuButton2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>52</y>
+     <width>150</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;？？？&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="menuName2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>52</y>
+     <width>150</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#4d4d4d;&quot;&gt;曲目&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="loadingP">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>0</width>
+     <height>0</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/Loading.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="playBG">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>500</y>
+     <width>800</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/playBG.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="playCloseButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>510</y>
+     <width>26</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/playClose.png);
+border-image: url(:/Pictures/playClose.png);
+image: url(:/Pictures/playClose.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton0">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton1">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>120</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton3">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>120</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton5">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>320</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton6">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>320</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sheetButton7">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>320</y>
+     <width>160</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton0">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>103</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+text-align:left;
+background-color: rgb(38, 38, 38); 
+border-radius: 5px; color: rgb(123,123,123);
+} 
+QPushButton:hover {
+text-align:left;
+background-color: rgb(55, 55, 55); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeatInterval">
+    <number>0</number>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>138</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(50, 50,50 ); 
+	border-radius: 5px; color: rgb(150,150,150);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(66, 66, 66); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>173</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(38, 38, 38); 
+	border-radius: 5px; color: rgb(123,123,123);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(55, 55, 55); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+   <property name="autoRepeatInterval">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>208</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(50, 50,50 ); 
+	border-radius: 5px; color: rgb(150,150,150);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(66, 66, 66); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>243</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(38, 38, 38); 
+	border-radius: 5px; color: rgb(123,123,123);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(55, 55, 55); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>278</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(50, 50,50 ); 
+	border-radius: 5px; color: rgb(150,150,150);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(66, 66, 66); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>313</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(38, 38, 38); 
+	border-radius: 5px; color: rgb(123,123,123);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(55, 55, 55); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>348</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(50, 50,50 ); 
+	border-radius: 5px; color: rgb(150,150,150);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(66, 66, 66); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton8">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>383</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(38, 38, 38); 
+	border-radius: 5px; color: rgb(123,123,123);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(55, 55, 55); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="songButton9">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>418</y>
+     <width>800</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	text-align:left;
+	background-color: rgb(50, 50,50 ); 
+	border-radius: 5px; color: rgb(150,150,150);
+} 
+QPushButton:hover {
+	text-align:left;
+	background-color: rgb(66, 66, 66); 
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonPause">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>520</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pushButtonLabel">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>520</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/pause-fill.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pageButtonLeft">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>460</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Pictures/left.png);
+border-image: url(:/Pictures/left.png);
+image: url(:/Pictures/left.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pageButtonRight">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>460</y>
+     <width>34</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/right.png);
+border-image: url(:/Pictures/right.png);
+image: url(:/Pictures/right.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonPlayMode">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>520</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/Pictures/clear.png);
+border-image: url(:/Pictures/clear.png);
+image: url(:/Pictures/clear.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pushButtonPlayModeL">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>520</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/repeat-2-fill.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="newsLabel0">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>800</width>
+     <height>380</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/DebugLog.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="newsLabel1">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>390</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/Pictures/IS.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="playBGtext">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>600</y>
+     <width>800</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(124, 124, 124);</string>
+   </property>
+   <property name="text">
+    <string>sdkalfsjkalfjklsajflksdjal </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>closeButton</zorder>
+  <zorder>minButton</zorder>
+  <zorder>menuName0</zorder>
+  <zorder>menuButton0</zorder>
+  <zorder>menuName1</zorder>
+  <zorder>menuButton1</zorder>
+  <zorder>menuUnderlineBG</zorder>
+  <zorder>menuUnderline</zorder>
+  <zorder>menuName2</zorder>
+  <zorder>menuButton2</zorder>
+  <zorder>loadingP</zorder>
+  <zorder>playBG</zorder>
+  <zorder>playCloseButton</zorder>
+  <zorder>sheetButton0</zorder>
+  <zorder>sheetButton1</zorder>
+  <zorder>sheetButton2</zorder>
+  <zorder>sheetButton3</zorder>
+  <zorder>sheetButton4</zorder>
+  <zorder>sheetButton5</zorder>
+  <zorder>sheetButton6</zorder>
+  <zorder>sheetButton7</zorder>
+  <zorder>songButton0</zorder>
+  <zorder>songButton1</zorder>
+  <zorder>songButton2</zorder>
+  <zorder>songButton3</zorder>
+  <zorder>songButton4</zorder>
+  <zorder>songButton5</zorder>
+  <zorder>songButton6</zorder>
+  <zorder>songButton7</zorder>
+  <zorder>songButton8</zorder>
+  <zorder>songButton9</zorder>
+  <zorder>pushButtonLabel</zorder>
+  <zorder>pushButtonPause</zorder>
+  <zorder>pageButtonLeft</zorder>
+  <zorder>pageButtonRight</zorder>
+  <zorder>pushButtonPlayModeL</zorder>
+  <zorder>pushButtonPlayMode</zorder>
+  <zorder>newsLabel0</zorder>
+  <zorder>newsLabel1</zorder>
+  <zorder>playBGtext</zorder>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Pictures/clear.png</file>
+        <file>Pictures/numuChoose.png</file>
+        <file>Pictures/menuChooseBG.png</file>
+        <file>Pictures/background.png</file>
+        <file>Pictures/Loading.png</file>
+        <file>Pictures/playBG.png</file>
+        <file>Pictures/playClose.png</file>
+        <file>Pictures/pause-fill.png</file>
+        <file>Pictures/play-fill.png</file>
+        <file>Pictures/right.png</file>
+        <file>Pictures/left.png</file>
+        <file>Pictures/inc.png</file>
+        <file>Pictures/inc.ico</file>
+        <file>Pictures/repeat-one-fill.png</file>
+        <file>Pictures/repeat-2-fill.png</file>
+        <file>Pictures/IS.png</file>
+        <file>Pictures/DebugLog.png</file>
+    </qresource>
+</RCC>
