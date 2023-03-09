@@ -1,8 +1,8 @@
 # ISmusic
 
-ISmusic是一个==开源==的音乐播放器
+ISmusic是一个用Qt6编写的音乐播放器
 
-ISmusic的名字来源是==伊吹 萃香==  ~いぶきすいかIbukaSuika~
+ISmusic的名字来源是**伊吹 萃香**  ~いぶきすいかIbukiSuika~
 
 -------------------
 
